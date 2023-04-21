@@ -42,7 +42,33 @@ Master Unsupervised Learning
   - Feature selection
   - Feature aggregation
     - Principal Component Analysis (PCA). A linear unsupervised ML algorithm
+      - Limitations:
+        - Can only be used for continuous variables and is not relevant for category variables
+        - While aggregating, PCA approximates the component variables; it simplifies the problem of dimensionality at the expense of accuracy.
     - Linear discriminant analysis (LDA). A linear supervised ML algorithm
     - Kernel principal component analysis. A nonlinear algorithm
 - Anomaly detection algorithm
 - Association rules mining
+  - Association rules mining is used when we are trying to investigate the cause-and-effect relationships between different variables of a dataset. The following are example questions that it can help to answer:
+    - Which values of humidity, cloud cover, and temperature can lead to rain tomorrow? 
+    - What type of insurance claim can indicate fraud? 
+    - What combinations of medicine may lead to complications for patients?
+  - Market basket analysis
+    - Several use-case questions:
+      - What is the optimal placement of items on the shelf? 
+      - How should the items appear in the marketing catalog? 
+      - What should be recommended, based on a user's buying patterns?
+  - Association rules
+    - Trivial
+    - Inexplicable
+    - Actionable: Example:
+      - Actionable rules may suggest the best placement in a store for a particular product based on current buying patterns. 
+      - They may also suggest which items to place together to maximize their chances of selling as users tend to buy them together.
+      - Rule 1: Displaying ads to users' social media accounts results in a higher likelihood of sales.
+        - Actionable item: Suggests alternative ways of advertising a product
+      - Rule 2: Creating more price points increases the likelihood of sales
+        - Actionable item: One item may be advertised in a sale, while the price of another item is raised.
+  - Ranking rules
+    - Support (frequency) of items
+    - Confidence
+    - Lift
