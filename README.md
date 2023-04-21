@@ -29,7 +29,20 @@ Master Unsupervised Learning
       - Each data point is assigned to only one cluster
       - Sensitive to outliers
   - Hierarchical clustering
-    - 
+    - dendrogram
+  - Application of clustering
+    - In government use cases:
+      - Crime-hotspot analysis
+      - Demographic social analysis
+    - In market search:
+      - Market segmentation
+      - Targeted advertisements
+      - Customer categorization
 - Dimensionality reduction
+  - Feature selection
+  - Feature aggregation
+    - Principal Component Analysis (PCA). A linear unsupervised ML algorithm
+    - Linear discriminant analysis (LDA). A linear supervised ML algorithm
+    - Kernel principal component analysis. A nonlinear algorithm
 - Anomaly detection algorithm
 - Association rules mining
