@@ -11,3 +11,25 @@ Master Unsupervised Learning
 
 
 ## ✅ Unsupervised learning's journey:
+- Unsupervised learning
+  - Practical examples:
+    - Voice categorization
+    - Document categorization
+- Clustering algorithm
+  - Quantifying similarities
+    - Euclidean distance measure
+    - Manhattan distance measure
+    - Cosine distance measure
+  - k-means
+    - Advantages:
+      - Simplicity
+    - Limitations
+      - The initial number of clusters has to be predetermined
+      - The initial assignment of cluster centers is random. 
+      - Each data point is assigned to only one cluster
+      - Sensitive to outliers
+  - Hierarchical clustering
+    - 
+- Dimensionality reduction
+- Anomaly detection algorithm
+- Association rules mining
