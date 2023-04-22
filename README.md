@@ -48,6 +48,11 @@ Master Unsupervised Learning
     - Linear discriminant analysis (LDA). A linear supervised ML algorithm
     - Kernel principal component analysis. A nonlinear algorithm
 - Anomaly detection algorithm
+  - Credit card fraud 
+  - Finding a malignant tumor in a magnetic resonance imaging (MRI) scan 
+  - Fault prevention in clusters 
+  - Impersonation in exams 
+  - Accidents on a highway
 - Association rules mining
   - Association rules mining is used when we are trying to investigate the cause-and-effect relationships between different variables of a dataset. The following are example questions that it can help to answer:
     - Which values of humidity, cloud cover, and temperature can lead to rain tomorrow? 
